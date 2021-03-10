@@ -1,81 +1,271 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="zh-tw">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.4.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"osberntw.github.io","root":"/","images":"/images","scheme":"Mist","version":"8.2.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
+  </script>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Osbern&#39;s Blog">
+<meta property="og:url" content="https://osberntw.github.io/index.html">
+<meta property="og:site_name" content="Osbern&#39;s Blog">
+<meta property="og:locale" content="zh_TW">
+<meta property="article:author" content="Osbern Huang">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://osberntw.github.io/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : true,
+    isPost : false,
+    lang   : 'zh-tw'
+  };
+</script>
+<title>Osbern's Blog</title>
   
-  <title>Osbern Huang</title>
-
-  
-  <meta name="author" content="Osbern Huang">
-  
-
-  
-
-  
-
-  <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-
-  
-
-  <meta property="og:site_name" content="Osbern Huang"/>
-
-  
-  <meta property="og:image" content="/favicon.ico"/>
-  
-
-  <link href="/favicon.ico" rel="icon">
-  <link rel="alternate" href="/atom.xml" title="Osbern Huang" type="application/atom+xml">
-  <link rel="stylesheet" href="/css/style.css" media="screen" type="text/css">
-<meta name="generator" content="Hexo 5.4.0"></head>
 
 
-<body>
-<div class="blog">
-  <div class="content">
 
-    <header>
-  <div class="site-branding">
-    <h1 class="site-title">
-      <a href="/">Osbern Huang</a>
-    </h1>
-    <p class="site-description"></p>
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
   </div>
-  <nav class="site-navigation">
-    <ul>
-      
-    </ul>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">Osbern's Blog</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section">Home</a></li>
+        <li class="menu-item menu-item-archives"><a href="/archives" rel="section">Archives</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags" rel="section">Tags</a></li>
+        <li class="menu-item menu-item-about"><a href="/about" rel="section">About</a></li>
+  </ul>
+</nav>
+
+
+
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">Osbern Huang</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives">
+          <span class="site-state-item-count">7</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">tags</span></a>
+      </div>
   </nav>
-</header>
-
-    <main class="site-main posts-loop">
-    
-  <article>
-
-  
-    
-    <h3 class="article-title"><a href="/2017/01/30/Dawn/"><span>Dawn</span></a></h3>
-    
-  
-
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2017/01/30/Dawn/" rel="bookmark">
-        <time class="entry-date published" datetime="2017-01-30T14:51:29.000Z">
-          2017-01-30
-        </time>
-      </a>
-    </span>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/osberntw" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;osberntw" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:osbern@gmail.com" title="E-Mail → mailto:osbern@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/OsbernHuang" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;OsbernHuang" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
   </div>
 
 
+
+        </div>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top" role="button">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
   
 
-  <div class="article-content">
-    <div class="entry">
-      
-        <p>一月要結束了。大年初四，又是一個頂著夜雨出發的日子，對我們這個工作而言，這樣的一個平凡的上班日，其實，理應要是不平凡的。</p>
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://osberntw.github.io/2017/01/30/Dawn/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Osbern Huang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Osbern's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2017/01/30/Dawn/" class="post-title-link" itemprop="url">Dawn</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2017-01-30 22:51:29" itemprop="dateCreated datePublished" datetime="2017-01-30T22:51:29+08:00">2017-01-30</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2021-03-10 08:26:44" itemprop="dateModified" datetime="2021-03-10T08:26:44+08:00">2021-03-10</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>一月要結束了。大年初四，又是一個頂著夜雨出發的日子，對我們這個工作而言，這樣的一個平凡的上班日，其實，理應要是不平凡的。</p>
 <p>曾經被以為是末日欲來的那年一月，一樣的大年初四，一個晴朗的出發日，你我跨越了軌道與鐵橋，橫越了城市與港口，正是那遲來的一步，成為我人生最重要的一步，正是那一日，你與我成為我們，距離與時間，誠實或謊言，情結與追悔，都不再能阻攔我的思念。</p>
 <p>Dear you，因為那一年那一天，許多曾為著將要發生而未能發生的對人生的否決，或是因著可能可以而可惜的對時間的懊念，就在那一刻沿著暮光被海風吹散，正是那一些字句跨越了距離與時間，誠實或謊言，情結與追悔。Dear you，因為如此，我理應要停止發光，無聲寂滅的人生哪，開始發著不平凡的光。</p>
 <p>從那一天起，我們走過許多距離，發現了彼此的缺陷，也曾喧喧鬧鬧地捶打了胸口，怒目相視過，也曾忘掉了胃口努力撐脹腰腹的尺度，為了某件商品不斷的梭巡，我們也在寒夜裡緊緊相擁，用緊貼的肌膚維持愛戀的溫度，更重要的，我們有了那麼可愛可親的兩個小朋友，偶爾在旁看著他們的嬉戲，就覺得世界的所有美好，就靜止在那裡了。</p>
@@ -86,55 +276,454 @@
       
     </div>
 
-  </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
     
-
     
     
 
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/dearyou/">dearyou</a>
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://osberntw.github.io/2012/03/26/%E6%9C%89%E8%A9%B1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Osbern Huang">
+      <meta itemprop="description" content="">
     </span>
-    
 
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Osbern's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2012/03/26/%E6%9C%89%E8%A9%B1/" class="post-title-link" itemprop="url">有話</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2012-03-26 10:18:00" itemprop="dateCreated datePublished" datetime="2012-03-26T10:18:00+08:00">2012-03-26</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2021-03-10 10:19:55" itemprop="dateModified" datetime="2021-03-10T10:19:55+08:00">2021-03-10</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>親愛的諸位：終於，我也成為有話要說的人，即使不被祝福，不被體諒，我也決心背對世界，與命運擊掌。</p>
+<p>這是一個很長的故事，由於篇幅太長，因此，請容許我來日再提及這些早以為湮沒於時代縫隙的往事。總之，我想，關於勝利的喜悅，或甜膩的情節，說與不說都無傷大雅。從世界的邊境走回南方，我知道，關於遠得發亮的路，我們終於在起點了。</p>
+<p>即使不知該從何說起，也請相信，即使虛妄一如無頭蒼蠅，我也決心開始幸福了。</p>
+
+      
     </div>
 
     
-  </div>
-</article>
-
-
-
-  <article>
-
-  
     
-    <h3 class="article-title"><a href="/2012/01/07/過節/"><span>過節</span></a></h3>
     
-  
 
-  <div class="article-top-meta">
-    <span class="posted-on">
-      <a href="/2012/01/07/過節/" rel="bookmark">
-        <time class="entry-date published" datetime="2012-01-07T00:27:13.000Z">
-          2012-01-07
-        </time>
-      </a>
-    </span>
-  </div>
-
-
-  
-
-  <div class="article-content">
-    <div class="entry">
+    <footer class="post-footer">
+        <div class="post-eof"></div>
       
-        <p>二十四歲第十八天，深夜讀過節，愴然涕下，不能自己。</p>
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://osberntw.github.io/2012/02/21/Home/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Osbern Huang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Osbern's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2012/02/21/Home/" class="post-title-link" itemprop="url">Home</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2012-02-21 10:27:06" itemprop="dateCreated datePublished" datetime="2012-02-21T10:27:06+08:00">2012-02-21</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2021-03-10 10:32:48" itemprop="dateModified" datetime="2021-03-10T10:32:48+08:00">2021-03-10</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Dear you，登機的廣播就要響起了，一如一個月前的這一天，我重新來到傾盆的機場，焦慮地等待回到有你的島嶼。隔著淺淺的海峽，我知道前方不再有傾盆的離別，只有溫暖的問候等在前方。</p>
+<p>「這就是新世界的風景嗎？」</p>
+<p>是的。我這樣回答心中的自己，我相信你也會同意。</p>
+<p>二零一二年第二個二十一日，這裡是下著大雨的浦東機場。下一站，起點。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://osberntw.github.io/2012/02/05/%E4%B8%80%E5%88%87%E5%A0%85%E5%9B%BA%E7%9A%84%E4%BA%8B%E7%89%A9/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Osbern Huang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Osbern's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2012/02/05/%E4%B8%80%E5%88%87%E5%A0%85%E5%9B%BA%E7%9A%84%E4%BA%8B%E7%89%A9/" class="post-title-link" itemprop="url">一切堅固的事物</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2012-02-05 11:21:59" itemprop="dateCreated datePublished" datetime="2012-02-05T11:21:59+08:00">2012-02-05</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2021-03-10 11:23:49" itemprop="dateModified" datetime="2021-03-10T11:23:49+08:00">2021-03-10</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>一切堅固的事物都煙消雲散了。</p>
+<p>（Karl，我又需要你的a little help了，就一如既往記在帳上吧，我將還你以鮮花，以及紅色的胸膛。）</p>
+<p>你想必很久沒回去了。當推土機鏟碎我們的記憶時，你想必也feel nothing吧。其實不瞞你說，我也已經不再有任何感覺了，過去陪伴我們等車的站牌已經成為曲高和寡的街道家具，文化中心的圍牆已經拆了，地下道也不再通行，操場旁的籃球架已悉數撤離麥當勞旁邊的圍牆，你我狠狠跌落的體育館，也已成為光鮮卻俗豔的教學城堡，不再能承載我們的記憶。我知道，很快，所有回憶都將隨著時光消逝於這改建的水泥森林，有一天我們將不再能找到我們的教室，桌椅，停車的位置，聊天的角落。</p>
+<p>而這一天終於到來，在一月，在我穿越文化中心的鴿群，前往紛擾的廣場時到來。</p>
+<p>你看，第一棟已經消失在地平線上。怪手輾過我們曾緊密相倚的水泥牆，我們的桌椅被扔棄在操場邊緣，過去凝視你的角度已經不復存在了，取替他們的將是有尖頂的水泥城堡，以及二十一世紀新的戀情，有電視，網路，遠端教學與更多沿牆而行的螞蟻，而那都與我們毫無干係。土石崩落，工人在廢墟上灑水，警衛在指揮返校的交通，而我只是一個陌生人了，對於這個學校，這些廢墟，對於不再穿著卡其襯衫的後代，或對於你，我都全是過客了。</p>
+<p>而我竟felt nothing，甚至有一點開心。你知道，在這一切堅固的事物都煙消雲散的時刻，我終於不得不冷靜地面對我生活的真實狀況，與我們及他人之間的相互關係。我們終將成為永遠的他者了，至此，我將得以出發，離開我們的僵局去尋找新的街道，新的站牌，新的溫度與勇氣，行事曆上也可以勾出新的紀念日，回家時也不再需要繞道而行。我把你的綠色墊子丟了，十七歲生日時的蛋糕盒也是，卡片也是，長長的手稿，或是簡短的筆記，都已付諸灰燼，地圖上，新田路總算都是綠燈了，繼你之後，我也要啟程出發，離開這些曾經紅色的街區。</p>
+<p>我非常感謝你。如果沒有左側的你，我將無從得知何謂政治，何謂愛情，也無法感悟心痛的滋味與心碎的距離，也絕不會急切地閱讀那麼多晦澀的詩句。這裡有大半的字句都與你有關，因此我也不必說得太多，即使下輩子我們都成為貓，也讓我們僅禮貌地問候吧，這樣就足夠了。</p>
+<p>Dear I，自這個句子開始，你就將只是I。我對你的思念與愛，已悉數煙消雲散。</p>
+<p>現在，給我一個笑臉吧。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://osberntw.github.io/2012/01/24/%E5%92%96%E5%95%A1/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Osbern Huang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Osbern's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2012/01/24/%E5%92%96%E5%95%A1/" class="post-title-link" itemprop="url">咖啡</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2012-01-24 11:35:48" itemprop="dateCreated datePublished" datetime="2012-01-24T11:35:48+08:00">2012-01-24</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2021-03-10 11:36:23" itemprop="dateModified" datetime="2021-03-10T11:36:23+08:00">2021-03-10</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Dear you，此刻你一定不知道我在哪裡。我的去向，蹤跡，甚至姓名都已不復存在。電車很冷，電車一直在待避，一列又一列的特急電車往你的地方疾駛而去了，但我還在鐵橋上，看乾枯的河水沖蝕沙洲。你看，水鳥都已無處可去，只得不斷地繞圈飛行。</p>
+<p>電車開動了。隔鄰的小妹妹因低盪的耐心哭泣起來，有人因猜疑而改奔向右側的月台。天色已經暗了下來，外頭的燈光暗得看不出城市的方位，河川的走向，東南西北地久天長，都因成為新年的謎題而被隱沒起來。面對猜疑，我決心放棄摸索，改以等待。</p>
+<p>你沒有打來，甚至沒有隻字片語留在城鎮的告示板。你的身高嗓音及眉角的間距我都忘了，只有咖啡杯的唇印還淡淡地留在店裡。我跳下緩慢行進的電車，向那氣味緩步而去。你應該很久沒來了。木造的建築僅剩牆角的地基仍是當年來過的樣子，現在，老人們已經佔領離夕陽最近的座位，向著山頂的方位還有鞦韆，但枕木已經垂落在地板，不再能盪起引人遐思的曲線。再往前去，則已經不是到的了的地方了，前年的山洪湮沒道路，茶園，土雞城與咖啡店，天空依舊很藍，但已失去氣味。</p>
+<p>夕陽已經落下來了，咖啡正在冷卻。這是第622杯咖啡，我已經不知道你的唇印屬於哪個角落，也許在杯頸，在杯尾，在膨脹起來的杯腹，或缺了一角的杯底。不過，我知道你在日出的這一邊，而我已決定要再和你見面。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://osberntw.github.io/2012/01/22/%E6%97%85%E8%A1%8C%EF%BC%9A/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Osbern Huang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Osbern's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2012/01/22/%E6%97%85%E8%A1%8C%EF%BC%9A/" class="post-title-link" itemprop="url">旅行：</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2012-01-22 11:38:27" itemprop="dateCreated datePublished" datetime="2012-01-22T11:38:27+08:00">2012-01-22</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2021-03-10 11:39:17" itemprop="dateModified" datetime="2021-03-10T11:39:17+08:00">2021-03-10</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>這裡是兩萬公尺的高空，天色已晚，我正在回家的路上。也許你懷疑此趟旅行的意義或必要性，也許你認為我是為了逃離選後低盪的情緒，一切一切的猜疑也好，同情也罷，等等都行。我只是要說，選擇離開，是為了更有信心地回來。</p>
+<p>一月的第二個禮拜，大選結束的第二天，我安靜地離開陽光照撫的故鄉，離開你生活的城鎮，離開所在乎所鍾愛的一切事物，獨自一人前往冬季的大阪。你也許會問，這時節去作什麼呢？祭典要嘛是結束要嘛還沒開始，折扣季也顯然並非我的目標，氣溫也好，雨也好，無一符合我的偏好。在一個蕭瑟的季節前往關西，從哪個角度看都不是一種理性的決定。</p>
+<p>但那都沒關係。其實我也不知道為什麼自己在這裡。大阪每天都下雨：冷的要命的街道，乾枯的行道樹，匆忙的上班族，種種種種，加上寂寞，我是一個什麼都沒有的人，獨自來到無人熟識，言語不通的城鎮，彷彿自己就要消失在背景裡。其實消失也好，來到遙遠的異地，無人熟識反而幸福。此刻，一切都安靜下來，城市也成為你的背景：沒有嘈嚷的牽絆，也不存在生活的負擔，終於，自己可以成為自己，可以開始冷靜，沉著地，思考人生的下一著棋。</p>
+<p>除此之外，旅程也並非一無所獲。選擇漫長的散步或單車作為移動的主要方式，也許每晚都必須忍耐全身的酸痛，但某種程度，你也走進了城市固有的生活，而那些微小的細節，甚至比古蹟或景點更令人心動。你知道，整座奈良是一座巨大的公園，每日遊客如織，但春日大社羞赧的巫女，仍願意正襟危坐，替你提筆寫下莊嚴的回憶。被寵壞的鹿群令我想起故鄉的獼猴，他們需索無度，但我們依舊可以有那麼多的耐心，陪他們枯坐一整個飢腸轆轆的下午。此外，還有雪和古蹟，冰冷的地面刺痛腳掌，但若草山上的美景卻令人無比難忘，那是大和古老的回憶，也終將成為我古老的回憶。</p>
+<p>騎著單車在京都街頭橫衝直撞，也是不可多得的事。終於來到夢裡的你們的校園，以及山上的神社，一切風景都令我悸動莫名。即使銀杏已經乾枯在地上，我還是可以想像多年以前你們在此讀書，生活，思考著如何將這裡開放的空氣，帶回正在窒息的故鄉。走在鴨川左岸，草都已經枯黃，氣溫偏低，但坐在三角洲上看夕陽灑落的街景，想念也突然變得充滿力量。</p>
+<p>哦，還有書店，寒冷的一月天來到飄香的精采書店，即使沒有一本書能被你完整的讀完，你也一定能夠感受自小巷飄出的文字風景。跨過鴨川來到御苑，坐在廣大的皇家公園裡，看著媽媽們帶著小孩走進樹林，突然也能理解幸福的意義。</p>
+<p>大阪又是另一個不同的地方：大都會的腳步急促，但其實，晚間九點過後群聚大樓外抽煙醒酒的上班族，清晨在公園捕捉烏鴉的攝影師，也都屬於這匆忙的一部分。偶爾見到單車亂停的角落，垃圾四散的巷口，其實換成是你，也會對如此接近故鄉的一刻，感到會心一笑吧。還有那些熱鬧的商店街，被我殘破的日語摧殘的每位店員，能向有禮到無可救藥的你們買東西，我也非常不好意思。希望你們能理解我的感謝，以及獨自一人在異鄉被問候的感動莫名。</p>
+<p>感謝飯店被我一直諮詢的櫃檯人員，感謝每天準備豐盛早餐的廚房阿姨，感謝ICOCA，京阪電車與近鐵奈良，感謝每一個溫暖的拉麵店，感謝春日大社，吉田神社與下鴨神社的巫女們，感謝Applestore，還有許多說不盡的感謝，就通通迴向給旅程中一點也不默默陪伴著我的你。</p>
+<p>六天以來，經歷了許多事情，從迷路到被問路，從格格不入到隨遇而安，其實有一種自卑的虛榮感。此外，我們也終有勇氣，去面對即將到來的每個挑戰。一個人站在下雨的大城市裡迷路，眼淚都快要流下來，不過，找到地標之後興奮地大笑，振臂，卻又非常開心。感謝每個忍讓我阻斷他們去路的上班族，感謝每個知道我去向的親愛的你。</p>
+<p>最後：也許在家鄉，我們作不到許多事情，我們也許無禮，外放，視錢如命，無力打敗大怪獸，也不可能扭轉既有的危局。但同時，我們也應該為自己的陽光，樂觀與不拘小節而感到驕傲。回來之後，不要再問我關於選舉的事情，我要告訴你，我們不會哭泣，也不會放棄。不只是因為這場旅行，更是因為認識了自己，此刻，我們充滿力量與信心，有勇氣回來面對島嶼的不安與疑懼。</p>
+<p>挺起你的胸膛，我們要重新出發了。</p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://osberntw.github.io/2012/01/07/%E9%81%8E%E7%AF%80/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Osbern Huang">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Osbern's Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2012/01/07/%E9%81%8E%E7%AF%80/" class="post-title-link" itemprop="url">過節</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2012-01-07 08:27:13" itemprop="dateCreated datePublished" datetime="2012-01-07T08:27:13+08:00">2012-01-07</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">Edited on</span>
+        <time title="Modified: 2021-03-10 08:27:43" itemprop="dateModified" datetime="2021-03-10T08:27:43+08:00">2021-03-10</time>
+      </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>二十四歲第十八天，深夜讀過節，愴然涕下，不能自己。</p>
 <p>「你過的好嗎？」</p>
 <p>以這個問句為開頭，其實我想知道更多。更少我們已知的事，更多稀有的例子。如果有必要，就讓我們重新向彼此自我介紹，從自己的身世，來歷開始，從喜愛的樂隊，眷戀的城市，到如何面對討人厭的同學，以及獨自一人的耗電。當然，我們也應該努力擁抱，跳躍，翻折平行已久的人生。為此，即使世界就要失速墜毀，我也樂意拿七十億人的未來，交換一個有你的明天，有你踱步的城市，有你發呆的海邊。</p>
 <p>是啊，dear R，我已來到這進入北極圈的伐木小鎮，頭一天便患了重傷風，但仍要回去做些龐大的事。就如你總是知道的那樣，就算整個世界追捕我，我也希望你會喜歡。</p>
@@ -143,50 +732,80 @@
       
     </div>
 
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Osbern Huang</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/mist/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a>
   </div>
-
-  <div class="article-footer">
-    <div class="article-meta pull-left">
-
-    
-
-    
-    
-
-    <span class="post-tags">
-      <i class="icon-tags"></i>
-        <a href="/tags/dearyou/">dearyou</a>
-    </span>
-    
 
     </div>
+  </footer>
 
-    
-  </div>
-</article>
-
-
-
-
-<nav class="pagination">
   
-  
-</nav>
-    </main>
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script>
 
-    <footer class="site-footer">
-  <p class="site-info">
-    Proudly powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and
-    Theme by <a href="https://github.com/CodeDaraW/Hacker" target="_blank">Hacker</a>
-    </br>
-    
-    &copy; 2021 Osbern Huang
-    
-  </p>
-</footer>
-    
-    
-  </div>
-</div>
+  
+
+
+
+
+
+
+  
+
+
+
+
+
 </body>
 </html>
