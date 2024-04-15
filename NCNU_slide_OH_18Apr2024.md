@@ -43,8 +43,7 @@ _paginate: false
 - 調查研究(Survey Research)：敘述或解釋目標群體的特徵
   - 選舉預測、市場開發、估算族群大小、流行病影響程度
 - 為何要抽樣？
-  - "Sampling is done because you usually <font color="FFCC00">***cannot gather data from the entire population*** </font>. Even in relatively small populations, the data may be needed <font color="FFCC00">***urgently*** </font>, and including everyone in the population in your data collection may take too long." (London School of Hygiene and Tropical Medicine, 2009)
-- 如何做抽樣？
+  - "Sampling is done because you usually <font color="FFCC00">***cannot gather data from the entire population*** </font>. Even in relatively small populations, the data may be needed <font color="FFCC00">***urgently***</font>, and including everyone in the population in your data collection may take too long." (London School of Hygiene and Tropical Medicine, 2009)
 
 
 <!--  footer: Figures are from: Peter Lance, John Spencer, Aiko Hattori (2014) GIS and Sampling, USAID, PEPFAR, MEASURE Evaluation. -->
@@ -61,8 +60,8 @@ _paginate: false
 # 如何抽樣？
 
 
-![bg contain right:65%](random.png)
-![bg contain right:65%](onrandom.png)
+![bg contain right:68%](random.png)
+![bg contain right:68%](onrandom.png)
 
 
 - [街頭民調](https://www.aweb.tpin.idv.tw/president2024/index.php) v.s. [傳統民調](https://zh.wikipedia.org/zh-tw/2024%E5%B9%B4%E4%B8%AD%E8%8F%AF%E6%B0%91%E5%9C%8B%E7%B8%BD%E7%B5%B1%E9%81%B8%E8%88%89%E6%B0%91%E6%84%8F%E8%AA%BF%E6%9F%A5#%E6%B0%91%E8%AA%BF%E8%AA%A4%E5%B7%AE)
