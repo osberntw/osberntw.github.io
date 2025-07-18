@@ -192,6 +192,10 @@ In this context, we ask: if Taiwan reconsiders nuclear power, who is actually wi
 NPP3 is located in the heart of Taiwan's famous tropical beach resort and is close to an ecologically diverse National Park.
 -->
 
+
+<!--  footer: SGIR Seminar Jul 2025 / Osbern Huang -->
+
+
 ---
 
 
@@ -216,7 +220,7 @@ NPP3 is located in the heart of Taiwan's famous tropical beach resort and is clo
 ![bg contain](TW_AU.png)
 ![bg contain](TW_BNE.png)
 
-<!--  footer: SGIR Seminar Jul 2025 / Osbern Huang -->
+<!--  footer: thetruesize.com -->
 
 
 <!--
