@@ -11,7 +11,7 @@ _paginate: false
 ![](#fff)
 
 
-![bg opacity](IMG_0510.JPG)
+![bg opacity](IMG_0510.jpg)
 
 ![bg opacity](IMG_2132.jpg)
 
@@ -51,7 +51,7 @@ We’ll discuss those democratic ideals (Part 1), then Przeworski’s minimalist
 ![bg](#123)
 ![](#fff)
 
-![bg opacity](IMG_0510.JPG)
+![bg opacity](IMG_0510.jpg)
 
 ![bg opacity](IMG_2132.jpg)
 
